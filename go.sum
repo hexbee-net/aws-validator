@@ -1,3 +1,5 @@
+github.com/Hexbee-net/aws-validator v0.0.0-20200917081551-b99e5f4fad5b h1:bIYbWYOp8d3zW1ZaCqGmyPO6l5UQ0xg3uR6FulPqoPw=
+github.com/Hexbee-net/aws-validator v0.0.0-20200917081551-b99e5f4fad5b/go.mod h1:k3l0W/sd0gXAizffTiP5K20hOhmFTtBwgDvuYIW6jbU=
 github.com/aws/aws-sdk-go v1.34.24 h1:eTBgLksUJNLk5EwBl/lUweXjBZHbxvfcvqUxAJu7Fqg=
 github.com/aws/aws-sdk-go v1.34.24/go.mod h1:5zCpMtNQVjRREroY7sYe8lOMRSxkhG6MZveU8YkpAk0=
 github.com/davecgh/go-spew v1.1.0 h1:ZDRjVQ15GmhC3fiQ8ni8+OwkZQO4DARzQgrnXU1Liz8=
@@ -17,6 +19,7 @@ github.com/leodido/go-urn v1.2.0/go.mod h1:+8+nEpDfqqsY+g338gtMEUOtuK+4dEMhiQEgx
 github.com/pkg/errors v0.9.1/go.mod h1:bwawxfHBFNV+L2hUp1rHADufV3IMtnDRdf1r5NINEl0=
 github.com/pmezard/go-difflib v1.0.0 h1:4DBwDE0NGyQoBHbLQYPwSUPoCMWR5BEzIk/f1lZbAQM=
 github.com/pmezard/go-difflib v1.0.0/go.mod h1:iKH77koFhYxTK1pcRnkKkqfTogsbg7gZNVY4sRDYZ/4=
+github.com/stretchr/objx v0.1.0 h1:4G4v2dO3VZwixGIRoQ5Lfboy6nUhCyYzaqnIAPPhYs4=
 github.com/stretchr/objx v0.1.0/go.mod h1:HFkY916IF+rwdDfMAkV7OtwuqBVzrE8GR6GFx+wExME=
 github.com/stretchr/testify v1.4.0 h1:2E4SXV/wtOkTonXsotYi4li6zVWxYlZuYNCXe9XRJyk=
 github.com/stretchr/testify v1.4.0/go.mod h1:j7eGeouHqKxXV5pUuKE4zz7dFj8WfuZ+81PSLYec5m4=

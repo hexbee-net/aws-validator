@@ -13,7 +13,21 @@ func IsValidDynamoDBTable(fl validator.FieldLevel) bool {
 		return false
 	}
 
+	if isInList(dynamoDBReservedWords(), table) {
+		return false
+	}
+
 	match, _ := regexp.MatchString("^[a-zA-Z0-9_.-]+$", table)
 
 	return match
+}
+
+func isInList(slice []string, val string) bool {
+	for _, item := range slice {
+		if item == val {
+			return true
+		}
+	}
+
+	return false
 }

@@ -111,14 +111,16 @@ issues:
   exclude-rules:
     - linters:
         - dupl
+        - gomnd
         - gosec
         - scopelint
         - wsl
       path: _test\.go
 
-    - path: _test\.go
+    - path: dynamodb_reserved.go
       linters:
-        - gomnd
+        - funlen
+
 
     # https://github.com/go-critic/go-critic/issues/926
     - linters:
